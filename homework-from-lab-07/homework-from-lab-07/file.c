@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 #define _CRT_SECURE_NO_DEPRECATE
 
 int task();
