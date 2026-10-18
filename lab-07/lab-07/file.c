@@ -13,10 +13,11 @@ int main() {
 
 	task1();
 	task2();
+	
 	return 0;
 }
 
-int task1() {
+char task1() {
 	char c;
 
 	puts("Введите любую букву или цифру: ");
@@ -28,7 +29,7 @@ int task1() {
 
 	case '0': case '1': case '2': case '3': case '4':
 	case '5': case '6': case '7': case '8': case '9':
-		printf("Введена цифра.\n");
+		printf("Введена цифра\n");
 		break;
 
 	case 'A': case 'B': case 'C': case 'D': case 'E': case 'F': case 'G':
@@ -39,7 +40,7 @@ int task1() {
 	case 'j': case 'k': case 'l': case 'm': case 'n': case 'o': case 'p': 
 	case 'q': case 'r': case 's': case 't': case 'u':case 'v': case 'w': 
 	case 'x': case 'y': case 'z':
-		printf("Введена буква.\n");
+		printf("Введена буква\n");
 		break;
 
 	default:
@@ -47,10 +48,10 @@ int task1() {
 
 	}
 
-	return 0;
+	return '0';
 }
 
-int task2() {
+float task2() {
 	float x; float y; char c;
 
 	printf("Введите два числа: ");
@@ -87,4 +88,5 @@ int task2() {
 		printf("Введена неизвестная операция\n");
 	}
 
+	return 0.;
 }
