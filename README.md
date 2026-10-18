@@ -1,3 +1,4 @@
+
 # Домашнее задание к работе 4
 ____
 
@@ -11,6 +12,8 @@ ____
 ## 1. Блок-схема
 
 ![Блок-схема алгоритма](block-schema.jpg)
+
+[Ссылка на блок-схему](https://app.diagrams.net/#G11S2yHyYQMCB_zKZtUJAxYpsvejau0dvM#%7B%22pageId%22%3A%22PPpXGIrxo9YvdWrg5bHD%22%7D)
 
 ## 2. Реализация программы
 
